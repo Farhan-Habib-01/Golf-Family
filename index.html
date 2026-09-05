@@ -2,867 +2,871 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Golf Family - Toptracer driving range, adventure golf and golf lessons." />
 
-    <meta name="description"
-        content="Golf Family - Toptracer driving range, adventure golf, golf lessons, coffee and leagues.">
+  <title>Golf Family | Eat. Drink. Play.</title>
 
-    <title>Golf Family | Eat. Drink. Play.</title>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
-    <!-- Custom Cursor -->
-    <div id="cursor" aria-hidden="true"></div>
-    <div id="cursor-blur" aria-hidden="true"></div>
+  <!-- Skip Link -->
+  <a class="skip-link" href="#main-content">
+    Skip to content
+  </a>
 
-    <!-- =========================
-         HEADER
-    ========================== -->
-    <header class="header" id="header">
+  <!-- ================= HEADER ================= -->
+  <header id="site-header">
 
-        <nav class="navbar container">
+    <nav class="navbar container" aria-label="Main navigation">
 
-            <a href="#home" class="logo" aria-label="Golf Family home">
-                <span class="logo-icon">⛳</span>
+      <!-- Logo -->
+      <a href="#home" class="logo" aria-label="Golf Family home">
+        <span class="logo-icon">⛳</span>
 
-                <span class="logo-text">
-                    GOLF
-                    <strong>FAMILY</strong>
-                </span>
-            </a>
+        <span class="logo-text">
+          GOLF
+          <strong>FAMILY</strong>
+        </span>
+      </a>
 
-            <div class="nav-links" id="navLinks">
+      <!-- Desktop Navigation -->
+      <div class="desktop-nav">
 
-                <a href="#toptracer" class="nav-link">
-                    Toptracer Range
+        <a href="#toptracer">Toptracer Range</a>
+
+        <a href="#lessons">Golf Lessons</a>
+
+        <a href="#adventure">Adventure Golf</a>
+
+        <a href="#coffee">Coffee Shop</a>
+
+        <a href="#leagues">Leagues</a>
+
+        <a href="#contact" class="nav-cta">Book Now</a>
+
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false"
+        aria-controls="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+
+      <a href="#toptracer">Toptracer Range</a>
+
+      <a href="#lessons">Golf Lessons</a>
+
+      <a href="#adventure">Adventure Golf</a>
+
+      <a href="#coffee">Coffee Shop</a>
+
+      <a href="#leagues">Leagues</a>
+
+    </div>
+
+  </header>
+
+
+  <!-- Cursor -->
+  <div id="cursor" aria-hidden="true"></div>
+
+  <div id="cursor-blur" aria-hidden="true"></div>
+
+
+  <!-- ================= HERO VIDEO ================= -->
+
+  <div class="video-background">
+
+    <video autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+      <source src="./assets/golf-video.mp4" type="video/mp4" />
+
+      Your browser does not support video playback.
+    </video>
+
+    <div class="video-overlay"></div>
+
+  </div>
+
+
+  <!-- ================= MAIN ================= -->
+
+  <main id="main-content">
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+      <div class="hero-content container">
+
+        <span class="hero-badge">
+          Welcome to Golf Family
+        </span>
+
+        <h1>
+          EAT.
+          <span>DRINK.</span>
+          PLAY.
+        </h1>
+
+        <h2>
+          Where golf meets fun.
+        </h2>
+
+        <p>
+          Golf Family is a modern Toptracer driving range and
+          adventure golf destination in South East London.
+          We're passionate about technology, player development
+          and making golf enjoyable and accessible to everyone.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#activities" class="button button-primary">
+            Explore Activities
+          </a>
+
+          <a href="#contact" class="button button-outline">
+            Book Your Visit
+          </a>
+
+        </div>
+
+        <a href="#about" class="scroll-down" aria-label="Scroll to about section">
+          <span>Scroll</span>
+          <span class="scroll-arrow">↓</span>
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= MARQUEE ================= -->
+
+    <section class="marquee-section" aria-label="Golf Family services">
+
+      <div class="marquee">
+
+        <div class="marquee-track">
+
+          <span>TOPTRACER RANGE</span>
+          <span>GOLF LESSONS</span>
+          <span>ADVENTURE GOLF</span>
+          <span>COFFEE SHOP</span>
+          <span>LEAGUES</span>
+
+          <span>TOPTRACER RANGE</span>
+          <span>GOLF LESSONS</span>
+          <span>ADVENTURE GOLF</span>
+          <span>COFFEE SHOP</span>
+          <span>LEAGUES</span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about section" id="about">
+
+      <div class="container about-grid">
+
+        <div class="about-image about-image-left">
+
+          <img
+            src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-about-1.jpg?strip=all&lossy=1&sharp=1&fit=700%2C500&ssl=1"
+            alt="Golf driving range at Golf Family" loading="lazy">
+
+        </div>
+
+        <div class="about-content">
+
+          <span class="section-label">
+            About Us
+          </span>
+
+          <h2>
+            Golf for <span>everyone.</span>
+          </h2>
+
+          <p>
+            Home to a 46-bay, multi-tier, floodlit driving
+            range powered by Toptracer Range technology.
+            Our facility also includes a practice green,
+            bunker, coffee shop and golf store.
+          </p>
+
+          <p>
+            For families and casual players, we also offer
+            two outdoor 18-hole dinosaur-themed adventure
+            golf courses.
+          </p>
+
+          <div class="about-stats">
+
+            <div class="stat">
+              <strong>46</strong>
+              <span>Driving Bays</span>
+            </div>
+
+            <div class="stat">
+              <strong>36</strong>
+              <span>Adventure Holes</span>
+            </div>
+
+            <div class="stat">
+              <strong>7</strong>
+              <span>Days a Week</span>
+            </div>
+
+          </div>
+
+          <a href="#activities" class="button button-primary">
+            Discover More
+          </a>
+
+        </div>
+
+        <div class="about-image about-image-right">
+
+          <img
+            src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-about-2.jpg?strip=all&lossy=1&sharp=1&fit=700%2C500&ssl=1"
+            alt="Adventure golf course" loading="lazy">
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= SERVICES ================= -->
+
+    <section class="activities section" id="activities">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <div>
+            <span class="section-label">
+              What We Offer
+            </span>
+
+            <h2>
+              Choose your <span>game.</span>
+            </h2>
+          </div>
+
+          <p>
+            Whether you're working on your swing,
+            learning golf or enjoying a day with family,
+            there's something here for everyone.
+          </p>
+
+        </div>
+
+
+        <div class="activity-grid">
+
+          <!-- CARD 1 -->
+          <article class="activity-card" id="toptracer">
+
+            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-about-1.jpg"
+              alt="Toptracer golf driving range" loading="lazy">
+
+            <div class="activity-overlay">
+
+              <span class="card-number">
+                01
+              </span>
+
+              <div>
+                <h3>
+                  Toptracer Range
+                </h3>
+
+                <p>
+                  Practice your swing using advanced
+                  ball-tracking technology and interactive
+                  games suitable for every skill level.
+                </p>
+
+                <a href="#contact" class="card-link">
+                  Book Range
+                  <span>→</span>
                 </a>
-
-                <a href="#lessons" class="nav-link">
-                    Golf Lessons
-                </a>
-
-                <a href="#adventure" class="nav-link">
-                    Adventure Golf
-                </a>
-
-                <a href="#coffee" class="nav-link">
-                    Coffee Shop
-                </a>
-
-                <a href="#leagues" class="nav-link">
-                    Leagues
-                </a>
-
-                <a href="#contact" class="nav-cta">
-                    Book Now
-                </a>
+              </div>
 
             </div>
 
-            <button class="menu-button" id="menuButton" type="button" aria-label="Open navigation menu"
-                aria-expanded="false" aria-controls="navLinks">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-
-        </nav>
-
-    </header>
+          </article>
 
 
-    <!-- =========================
-         VIDEO BACKGROUND
-    ========================== -->
-    <div class="video-background">
+          <!-- CARD 2 -->
+          <article class="activity-card" id="adventure">
 
-        <video autoplay muted loop playsinline preload="metadata"
-            poster="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-about-1.jpg">
-            <source src="./assets/golf-video.mp4" type="video/mp4">
+            <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-about-2.jpg" alt="Adventure golf"
+              loading="lazy">
 
-            Your browser does not support HTML5 video.
-        </video>
+            <div class="activity-overlay">
 
-        <div class="video-overlay"></div>
+              <span class="card-number">
+                02
+              </span>
+
+              <div>
+                <h3>
+                  Adventure Golf
+                </h3>
+
+                <p>
+                  Explore two exciting dinosaur-themed
+                  18-hole courses designed for families,
+                  friends and players of all ages.
+                </p>
+
+                <a href="#contact" class="card-link">
+                  Play Adventure Golf
+                  <span>→</span>
+                </a>
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- CARD 3 -->
+          <article class="activity-card" id="lessons">
+
+            <img
+              src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-lessons.jpg?strip=all&lossy=1&sharp=1&fit=1024%2C682&ssl=1"
+              alt="Professional golf lesson" loading="lazy">
+
+            <div class="activity-overlay">
+
+              <span class="card-number">
+                03
+              </span>
+
+              <div>
+                <h3>
+                  Golf Lessons
+                </h3>
+
+                <p>
+                  Develop your skills with coaching
+                  designed for beginners, juniors and
+                  experienced golfers.
+                </p>
+
+                <a href="#contact" class="card-link">
+                  Book Lesson
+                  <span>→</span>
+                </a>
+              </div>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================ FEATURE SECTION ================== -->
+
+    <section class="features section" id="coffee">
+
+      <div class="container feature-grid">
+
+        <div class="feature-content">
+
+          <span class="section-label">
+            More Than Golf
+          </span>
+
+          <h2>
+            Relax, refuel and enjoy the experience.
+          </h2>
+
+          <p>
+            After your game, relax with friends and family
+            in our coffee shop. Grab a drink, enjoy something
+            to eat and talk about your best shots.
+          </p>
+
+          <div class="feature-list">
+
+            <div>
+              <span>✓</span>
+              Fresh coffee & refreshments
+            </div>
+
+            <div>
+              <span>✓</span>
+              Family-friendly environment
+            </div>
+
+            <div>
+              <span>✓</span>
+              Indoor & outdoor seating
+            </div>
+
+            <div>
+              <span>✓</span>
+              Perfect for groups
+            </div>
+
+          </div>
+
+          <a href="#contact" class="button button-primary">
+            Visit Us
+          </a>
+
+        </div>
+
+
+        <div class="feature-visual">
+
+          <div class="feature-card">
+
+            <span>
+              OPEN 7 DAYS
+            </span>
+
+            <strong>
+              Play.
+              <br>
+              Relax.
+              <br>
+              Repeat.
+            </strong>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= NEWSLETTER ================= -->
+
+    <section id="newsletter" class="newsletter">
+
+      <div class="newsletter-content">
+
+        <span class="section-label">
+          GOLF FAMILY NEWS
+        </span>
+
+        <h2>
+          DON'T MISS
+          <span>OUT.</span>
+        </h2>
+
+        <p>
+          Sign up for Golf Family news, special offers
+          and upcoming events directly to your inbox.
+        </p>
+
+
+        <form id="newsletter-form" novalidate>
+
+          <div class="form-group">
+
+            <label for="email">
+              Email address
+            </label>
+
+            <div class="input-wrapper">
+
+              <input id="email" name="email" type="email" placeholder="Enter your email address" autocomplete="email"
+                required />
+
+              <button type="submit" class="submit-btn">
+                Subscribe
+              </button>
+
+            </div>
+
+          </div>
+
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= TESTIMONIAL ================= -->
+
+    <section class="testimonial section">
+
+      <div class="quote quote-left">
+        “
+      </div>
+
+      <div class="testimonial-content reveal">
+
+        <span class="section-label">
+          CUSTOMER LOVE
+        </span>
+
+        <blockquote>
+          I absolutely love the adventure golf here.
+          It seems every time I come they've added a new
+          feature. My mum and I usually come together and
+          it's such a laugh. The designs for the holes are
+          creative and the two different courses make it
+          even more fun.
+        </blockquote>
+
+        <cite>
+          — Golf Family Guest
+        </cite>
+
+      </div>
+
+      <div class="quote quote-right">
+        ”
+      </div>
+
+    </section>
+
+
+    <!-- ================= LEAGUES ==================== -->
+
+    <section class="league section" id="leagues">
+
+      <div class="container league-box">
+
+        <div class="league-content">
+
+          <span class="section-label">
+            Golf Leagues
+          </span>
+
+          <h2>
+            Compete. Connect. <span>Improve.</span>
+          </h2>
+
+          <p>
+            Join regular leagues and competitions,
+            challenge other golfers and track your
+            progress throughout the season.
+          </p>
+
+        </div>
+
+        <a href="#contact" class="button button-primary">
+          Join A League
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================ CONTACT / BOOKING =================== -->
+
+    <section class="contact section" id="contact">
+
+      <div class="container contact-grid">
+
+        <div class="contact-content">
+
+          <span class="section-label">
+            Book Your Visit
+          </span>
+
+          <h2>
+            Ready to <span>play?</span>
+          </h2>
+
+          <p>
+            Choose your activity and send us your booking
+            request. This demo form validates all fields
+            and provides user feedback.
+          </p>
+
+          <div class="contact-details">
+
+            <div>
+              <span>Opening Hours</span>
+              <strong>
+                Monday – Sunday
+                <br>
+                08:00 – 22:00
+              </strong>
+            </div>
+
+            <div>
+              <span>Location</span>
+              <strong>
+                South East London
+              </strong>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <form class="booking-form" id="bookingForm">
+
+          <div class="form-row">
+
+            <div class="form-group">
+
+              <label for="name">
+                Full Name
+              </label>
+
+              <input id="name" name="name" type="text" placeholder="Your name" autocomplete="name" required>
+
+            </div>
+
+            <div class="form-group">
+
+              <label for="email">
+                Email
+              </label>
+
+              <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+
+            </div>
+
+          </div>
+
+
+          <div class="form-row">
+
+            <div class="form-group">
+
+              <label for="activity">
+                Activity
+              </label>
+
+              <select id="activity" name="activity" required>
+
+                <option value="">
+                  Select activity
+                </option>
+
+                <option value="Toptracer Range">
+                  Toptracer Range
+                </option>
+
+                <option value="Adventure Golf">
+                  Adventure Golf
+                </option>
+
+                <option value="Golf Lessons">
+                  Golf Lessons
+                </option>
+
+                <option value="Golf League">
+                  Golf League
+                </option>
+
+              </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+              <label for="bookingDate">
+                Preferred Date
+              </label>
+
+              <input id="bookingDate" name="bookingDate" type="date" required>
+
+            </div>
+
+          </div>
+
+
+          <div class="form-group">
+
+            <label for="message">
+              Message
+            </label>
+
+            <textarea id="message" name="message" rows="4" placeholder="Tell us anything we should know..."></textarea>
+
+          </div>
+
+
+          <button type="submit" class="button button-primary booking-button">
+            Send Booking Request
+          </button>
+
+          <p id="bookingMessage" class="booking-message" aria-live="polite"></p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="footer">
+
+    <div class="container footer-grid">
+
+      <div>
+
+        <a href="#home" class="logo footer-logo">
+          <span class="logo-icon">⛳</span>
+
+          <span class="logo-text">
+            GOLF
+            <strong>FAMILY</strong>
+          </span>
+        </a>
+
+        <p>
+          Golf, technology, entertainment and family fun
+          all in one place.
+        </p>
+
+      </div>
+
+
+      <div>
+
+        <h3>
+          Explore
+        </h3>
+
+        <a href="#about">
+          About
+        </a>
+
+        <a href="#activities">
+          Activities
+        </a>
+
+        <a href="#leagues">
+          Leagues
+        </a>
+
+        <a href="#contact">
+          Book Now
+        </a>
+
+      </div>
+
+
+      <div>
+
+        <h3>
+          Activities
+        </h3>
+
+        <a href="#toptracer">
+          Toptracer
+        </a>
+
+        <a href="#adventure">
+          Adventure Golf
+        </a>
+
+        <a href="#lessons">
+          Lessons
+        </a>
+
+        <a href="#coffee">
+          Coffee Shop
+        </a>
+
+      </div>
+
+
+      <div>
+
+        <h3>
+          Follow
+        </h3>
+
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+          Instagram
+        </a>
+
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+          Facebook
+        </a>
+
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+          YouTube
+        </a>
+
+      </div>
 
     </div>
 
 
-    <main id="main">
+    <div class="container footer-bottom">
 
-        <!-- =========================
-             HERO SECTION
-        ========================== -->
-        <section class="hero" id="home">
+      <p>
+        © <span id="currentYear"></span>
+        Golf Family. All rights reserved.
+      </p>
 
-            <div class="hero-content container">
+      <button type="button" id="backToTop" class="back-to-top">
+        Back to top ↑
+      </button>
 
-                <span class="hero-badge">
-                    Welcome to Golf Family
-                </span>
+    </div>
 
-                <h1>
-                    EAT.
-                    <span>DRINK.</span>
-                    PLAY.
-                </h1>
+  </footer>
 
-                <h2>
-                    Where golf meets fun.
-                </h2>
 
-                <p>
-                    Golf Family is a modern Toptracer driving range and
-                    adventure golf destination in South East London.
-                    We're passionate about technology, player development
-                    and making golf enjoyable and accessible to everyone.
-                </p>
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
 
-                <div class="hero-buttons">
+  <!-- ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
 
-                    <a href="#activities" class="button button-primary">
-                        Explore Activities
-                    </a>
-
-                    <a href="#contact" class="button button-outline">
-                        Book Your Visit
-                    </a>
-
-                </div>
-
-                <a href="#about" class="scroll-down" aria-label="Scroll to about section">
-                    <span>Scroll</span>
-                    <span class="scroll-arrow">↓</span>
-                </a>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             SCROLLING TEXT
-        ========================== -->
-        <section class="marquee-section" aria-label="Golf Family services">
-
-            <div class="marquee">
-
-                <div class="marquee-track">
-
-                    <span>Toptracer Range</span>
-                    <span>Golf Lessons</span>
-                    <span>Adventure Golf</span>
-                    <span>Coffee Shop</span>
-                    <span>Leagues</span>
-
-                    <span>Toptracer Range</span>
-                    <span>Golf Lessons</span>
-                    <span>Adventure Golf</span>
-                    <span>Coffee Shop</span>
-                    <span>Leagues</span>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             ABOUT
-        ========================== -->
-        <section class="about section" id="about">
-
-            <div class="container about-grid">
-
-                <div class="about-image about-image-left">
-
-                    <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-about-1.jpg?strip=all&lossy=1&sharp=1&fit=700%2C500&ssl=1"
-                        alt="Golf driving range at Golf Family" loading="lazy">
-
-                </div>
-
-                <div class="about-content">
-
-                    <span class="section-label">
-                        About Us
-                    </span>
-
-                    <h2>
-                        Golf for everyone.
-                    </h2>
-
-                    <p>
-                        Home to a 46-bay, multi-tier, floodlit driving
-                        range powered by Toptracer Range technology.
-                        Our facility also includes a practice green,
-                        bunker, coffee shop and golf store.
-                    </p>
-
-                    <p>
-                        For families and casual players, we also offer
-                        two outdoor 18-hole dinosaur-themed adventure
-                        golf courses.
-                    </p>
-
-                    <div class="about-stats">
-
-                        <div class="stat">
-                            <strong>46</strong>
-                            <span>Driving Bays</span>
-                        </div>
-
-                        <div class="stat">
-                            <strong>36</strong>
-                            <span>Adventure Holes</span>
-                        </div>
-
-                        <div class="stat">
-                            <strong>7</strong>
-                            <span>Days a Week</span>
-                        </div>
-
-                    </div>
-
-                    <a href="#activities" class="button button-primary">
-                        Discover More
-                    </a>
-
-                </div>
-
-                <div class="about-image about-image-right">
-
-                    <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-about-2.jpg?strip=all&lossy=1&sharp=1&fit=700%2C500&ssl=1"
-                        alt="Adventure golf course" loading="lazy">
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             ACTIVITIES
-        ========================== -->
-        <section class="activities section" id="activities">
-
-            <div class="container">
-
-                <div class="section-heading">
-
-                    <div>
-                        <span class="section-label">
-                            What We Offer
-                        </span>
-
-                        <h2>
-                            Choose your game.
-                        </h2>
-                    </div>
-
-                    <p>
-                        Whether you're working on your swing,
-                        learning golf or enjoying a day with family,
-                        there's something here for everyone.
-                    </p>
-
-                </div>
-
-
-                <div class="activity-grid">
-
-                    <!-- CARD 1 -->
-                    <article class="activity-card" id="toptracer">
-
-                        <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-about-1.jpg"
-                            alt="Toptracer golf driving range" loading="lazy">
-
-                        <div class="activity-overlay">
-
-                            <span class="card-number">
-                                01
-                            </span>
-
-                            <div>
-                                <h3>
-                                    Toptracer Range
-                                </h3>
-
-                                <p>
-                                    Practice your swing using advanced
-                                    ball-tracking technology and interactive
-                                    games suitable for every skill level.
-                                </p>
-
-                                <a href="#contact" class="card-link">
-                                    Book Range
-                                    <span>→</span>
-                                </a>
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- CARD 2 -->
-                    <article class="activity-card" id="adventure">
-
-                        <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-about-2.jpg"
-                            alt="Adventure golf" loading="lazy">
-
-                        <div class="activity-overlay">
-
-                            <span class="card-number">
-                                02
-                            </span>
-
-                            <div>
-                                <h3>
-                                    Adventure Golf
-                                </h3>
-
-                                <p>
-                                    Explore two exciting dinosaur-themed
-                                    18-hole courses designed for families,
-                                    friends and players of all ages.
-                                </p>
-
-                                <a href="#contact" class="card-link">
-                                    Play Adventure Golf
-                                    <span>→</span>
-                                </a>
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- CARD 3 -->
-                    <article class="activity-card" id="lessons">
-
-                        <img src="https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-about-1.jpg"
-                            alt="Professional golf lesson" loading="lazy">
-
-                        <div class="activity-overlay">
-
-                            <span class="card-number">
-                                03
-                            </span>
-
-                            <div>
-                                <h3>
-                                    Golf Lessons
-                                </h3>
-
-                                <p>
-                                    Develop your skills with coaching
-                                    designed for beginners, juniors and
-                                    experienced golfers.
-                                </p>
-
-                                <a href="#contact" class="card-link">
-                                    Book Lesson
-                                    <span>→</span>
-                                </a>
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             FEATURE SECTION
-        ========================== -->
-        <section class="features section" id="coffee">
-
-            <div class="container feature-grid">
-
-                <div class="feature-content">
-
-                    <span class="section-label">
-                        More Than Golf
-                    </span>
-
-                    <h2>
-                        Relax, refuel and enjoy the experience.
-                    </h2>
-
-                    <p>
-                        After your game, relax with friends and family
-                        in our coffee shop. Grab a drink, enjoy something
-                        to eat and talk about your best shots.
-                    </p>
-
-                    <div class="feature-list">
-
-                        <div>
-                            <span>✓</span>
-                            Fresh coffee & refreshments
-                        </div>
-
-                        <div>
-                            <span>✓</span>
-                            Family-friendly environment
-                        </div>
-
-                        <div>
-                            <span>✓</span>
-                            Indoor & outdoor seating
-                        </div>
-
-                        <div>
-                            <span>✓</span>
-                            Perfect for groups
-                        </div>
-
-                    </div>
-
-                    <a href="#contact" class="button button-primary">
-                        Visit Us
-                    </a>
-
-                </div>
-
-
-                <div class="feature-visual">
-
-                    <div class="feature-card">
-
-                        <span>
-                            OPEN 7 DAYS
-                        </span>
-
-                        <strong>
-                            Play.
-                            <br>
-                            Relax.
-                            <br>
-                            Repeat.
-                        </strong>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             NEWSLETTER
-        ========================== -->
-        <section class="newsletter">
-
-            <div class="container newsletter-inner">
-
-                <div>
-
-                    <span class="section-label dark-label">
-                        Stay Updated
-                    </span>
-
-                    <h2>
-                        Get news & special offers.
-                    </h2>
-
-                    <p>
-                        Join our Golf Family community and receive
-                        events, offers and updates straight to your inbox.
-                    </p>
-
-                </div>
-
-                <form class="newsletter-form" id="newsletterForm">
-
-                    <label for="newsletterEmail" class="sr-only">
-                        Email address
-                    </label>
-
-                    <input id="newsletterEmail" type="email" placeholder="Enter your email address" autocomplete="email"
-                        required>
-
-                    <button type="submit" class="newsletter-button">
-                        Subscribe
-                    </button>
-
-                    <p id="newsletterMessage" class="form-message" aria-live="polite"></p>
-
-                </form>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             TESTIMONIAL
-        ========================== -->
-        <section class="testimonial section">
-
-            <div class="container testimonial-content">
-
-                <span class="quote-mark">
-                    “
-                </span>
-
-                <blockquote>
-                    I absolutely love the adventure golf here.
-                    Every time we visit there seems to be something
-                    new. The courses are creative and playing both
-                    makes it even more fun because we can compare
-                    our scores.
-                </blockquote>
-
-                <div class="testimonial-author">
-
-                    <div class="author-avatar">
-                        G
-                    </div>
-
-                    <div>
-                        <strong>
-                            Golf Family Guest
-                        </strong>
-
-                        <span>
-                            Adventure Golf Visitor
-                        </span>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             LEAGUES
-        ========================== -->
-        <section class="league section" id="leagues">
-
-            <div class="container league-box">
-
-                <div>
-
-                    <span class="section-label">
-                        Golf Leagues
-                    </span>
-
-                    <h2>
-                        Compete. Connect. Improve.
-                    </h2>
-
-                    <p>
-                        Join regular leagues and competitions,
-                        challenge other golfers and track your
-                        progress throughout the season.
-                    </p>
-
-                </div>
-
-                <a href="#contact" class="button button-primary">
-                    Join A League
-                </a>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             CONTACT / BOOKING
-        ========================== -->
-        <section class="contact section" id="contact">
-
-            <div class="container contact-grid">
-
-                <div class="contact-content">
-
-                    <span class="section-label">
-                        Book Your Visit
-                    </span>
-
-                    <h2>
-                        Ready to play?
-                    </h2>
-
-                    <p>
-                        Choose your activity and send us your booking
-                        request. This demo form validates all fields
-                        and provides user feedback.
-                    </p>
-
-                    <div class="contact-details">
-
-                        <div>
-                            <span>Opening Hours</span>
-                            <strong>
-                                Monday – Sunday
-                                <br>
-                                08:00 – 22:00
-                            </strong>
-                        </div>
-
-                        <div>
-                            <span>Location</span>
-                            <strong>
-                                South East London
-                            </strong>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <form class="booking-form" id="bookingForm">
-
-                    <div class="form-row">
-
-                        <div class="form-group">
-
-                            <label for="name">
-                                Full Name
-                            </label>
-
-                            <input id="name" name="name" type="text" placeholder="Your name" autocomplete="name"
-                                required>
-
-                        </div>
-
-                        <div class="form-group">
-
-                            <label for="email">
-                                Email
-                            </label>
-
-                            <input id="email" name="email" type="email" placeholder="you@example.com"
-                                autocomplete="email" required>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="form-row">
-
-                        <div class="form-group">
-
-                            <label for="activity">
-                                Activity
-                            </label>
-
-                            <select id="activity" name="activity" required>
-
-                                <option value="">
-                                    Select activity
-                                </option>
-
-                                <option value="Toptracer Range">
-                                    Toptracer Range
-                                </option>
-
-                                <option value="Adventure Golf">
-                                    Adventure Golf
-                                </option>
-
-                                <option value="Golf Lessons">
-                                    Golf Lessons
-                                </option>
-
-                                <option value="Golf League">
-                                    Golf League
-                                </option>
-
-                            </select>
-
-                        </div>
-
-
-                        <div class="form-group">
-
-                            <label for="bookingDate">
-                                Preferred Date
-                            </label>
-
-                            <input id="bookingDate" name="bookingDate" type="date" required>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="form-group">
-
-                        <label for="message">
-                            Message
-                        </label>
-
-                        <textarea id="message" name="message" rows="4"
-                            placeholder="Tell us anything we should know..."></textarea>
-
-                    </div>
-
-
-                    <button type="submit" class="button button-primary booking-button">
-                        Send Booking Request
-                    </button>
-
-                    <p id="bookingMessage" class="booking-message" aria-live="polite"></p>
-
-                </form>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- =========================
-         FOOTER
-    ========================== -->
-    <footer class="footer">
-
-        <div class="container footer-grid">
-
-            <div>
-
-                <a href="#home" class="logo footer-logo">
-                    <span class="logo-icon">⛳</span>
-
-                    <span class="logo-text">
-                        GOLF
-                        <strong>FAMILY</strong>
-                    </span>
-                </a>
-
-                <p>
-                    Golf, technology, entertainment and family fun
-                    all in one place.
-                </p>
-
-            </div>
-
-
-            <div>
-
-                <h3>
-                    Explore
-                </h3>
-
-                <a href="#about">
-                    About
-                </a>
-
-                <a href="#activities">
-                    Activities
-                </a>
-
-                <a href="#leagues">
-                    Leagues
-                </a>
-
-                <a href="#contact">
-                    Book Now
-                </a>
-
-            </div>
-
-
-            <div>
-
-                <h3>
-                    Activities
-                </h3>
-
-                <a href="#toptracer">
-                    Toptracer
-                </a>
-
-                <a href="#adventure">
-                    Adventure Golf
-                </a>
-
-                <a href="#lessons">
-                    Lessons
-                </a>
-
-                <a href="#coffee">
-                    Coffee Shop
-                </a>
-
-            </div>
-
-
-            <div>
-
-                <h3>
-                    Follow
-                </h3>
-
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-                    Instagram
-                </a>
-
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-                    Facebook
-                </a>
-
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
-                    YouTube
-                </a>
-
-            </div>
-
-        </div>
-
-
-        <div class="container footer-bottom">
-
-            <p>
-                © <span id="currentYear"></span>
-                Golf Family. All rights reserved.
-            </p>
-
-            <button type="button" id="backToTop" class="back-to-top">
-                Back to top ↑
-            </button>
-
-        </div>
-
-    </footer>
-
-
-    <!-- GSAP -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
-
-    <script src="script.js" defer></script>
+  <script src="script.js"></script>
 
 </body>
 
