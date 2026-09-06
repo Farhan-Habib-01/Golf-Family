@@ -446,7 +446,7 @@ video {
 }
 
 .hero h2 {
-  margin-top: 26px;
+  margin-top: 20px;
 
   font-size: clamp(1.2rem, 2.2vw, 2rem);
 
@@ -456,6 +456,7 @@ video {
 }
 
 .hero p {
+  padding: 10px;
   max-width: 720px;
 
   margin: 20px auto 0;
